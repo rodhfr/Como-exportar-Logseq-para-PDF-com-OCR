@@ -1,0 +1,51 @@
+- ## Requerimentos
+	- ###### Compatível com ::Windows:: e ::Gnu/Linux:: via Wine
+	- #### Plugins para [Logseq](https://logseq.com/):
+		- [**PDF Export Plugin**](https://github.com/sawhney17/logseq-pdf-export) - ==Disponível na Loja dentro do Logseq==
+		- **[Bonofix Theme](https://github.com/Sansui233/logseq-bonofix-theme) (Dark Mode)** - ==Disponível na Loja dentro do Logseq==
+			- ⚠️É preciso estar com o Bonofix no Dark Mode
+				- Testei outros temas, inclusive o standart do Logseq, pode não funcionar o processo com o Plugin PDF Export, ocasionando alguns bugs gráficos. O que melhor funcionou, comigo, foi o Bonofix (Dark). Contudo não testei todos, fique a vontade para experimentar outros.
+		- [**NAPS2**](https://www.naps2.com/)
+			- Para realizar o OCR do documento renderizado pelo Plugin PDF Export.
+- ## Sumário de Passos:
+	- Instale o [NAPS2](https://www.naps2.com/)
+		- (Opcional) Configure a opção de OCR para "Best"
+	- Instale o PDF Export Plugin no Logseq
+	  id:: 629323a2-5bad-471f-bd6b-0347d7f22dc6
+	- Instale o Tema Bonofix na loja de Plugins
+	- Coloque como tema global o Dark Mode.
+	- Exporte a Página como PDF no modo "Print With Retained Formatting" através do PDF Export Plugin
+	- Arraste o PDF gerado para dentro do NAPS2
+		- Aceite instalar a extensão para o NAPS2, para ter as ferramentas de manipulação de PDF
+			- Clique na miniatura do PDF para salvá-lo.
+				- 🎉Parabéns!
+- ## Passos Detalhados:
+	- #### Instalar o plugin PDF Export Plugin
+		- Três pontinhos
+			- Plugins
+				- Loja
+					- Procurar um plugin chamado PDF Export Plugin
+					- **Instale-o**
+	- #### Selecionando o Modo Escuro global
+		- Três pontinhos
+			- Configurações
+				- Em temas: Selecione o Dark Mode
+	- #### Instalar o Tema Bonofix
+		- Três pontinhos
+			- Plugins
+				- Loja
+					- Temas
+						- Procurar o tema chamado Bonofix Theme
+						- **Instale-o**
+	- #### Selecionar o Tema Bonofix (Dark Mode)
+		- Volte tudo
+			- Três pontinhos
+				- Temas
+					- Selecione o Bonofix Theme Escuro (Se este não estiver selecionado)
+	- ## Instale o [NAPS2](https://www.naps2.com/)
+		- Arraste o PDF que foi gerado pelo Plugin do Logseq para dentro do NAPS2
+			- Automáticamente irá aparecer um prompt pedindo para instalar uma extensão para manipular PDF
+				- Instale-a
+		- (Opcional) Mude a opção de OCR de "Fast" para "Best"
+		- Salve o PDF clicando na miniatura na barra de ícones do NAPS2
+	- ## Pronto, agora seu PDF é copiável e pesquisável, mantendo o estilo da formatação em Markdown!🎉✨
